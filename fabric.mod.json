@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "adminpanel",
+  "version": "${version}",
+  "name": "Admin Panel",
+  "description": "Panel admina otwierany klawiszem [ (kick, ban, tp, give, tryb gry, czas, pogoda).",
+  "authors": [],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.adminpanel.AdminPanelClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
